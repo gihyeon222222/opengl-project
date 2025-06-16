@@ -9,6 +9,7 @@ glBegin(GL_QUADS)와 glVertex2f() 함수를 이용해 사각형의 네 꼭짓점
 실행 시, 500x500 크기의 윈도우에 중앙에 무지개 색 사각형이 표시되며, GLUT의 기본 이벤트 루프를 통해 화면을 유지합니다. 이 예제를 통해 OpenGL의 색상 처리와 기본 2D 도형 렌더링 방식을 이해할 수 있습니다.
 
 <코드>
+```c
 #include <GL/freeglut.h>
 
 void display() {
@@ -42,6 +43,7 @@ glutWireTeapot() 함수는 freeglut에서 제공하는 3D 주전자 모델을 �
 깊이 테스트(glEnable(GL_DEPTH_TEST))와 더블 버퍼링(GLUT_DOUBLE)을 설정하여 3D 공간에서 물체가 자연스럽게 겹치도록 처리하고, 화면 깜빡임 없이 부드럽게 동작하도록 했습니다. 이 예제를 통해 OpenGL의 3D 객체 렌더링, 회전 변환, 애니메이션 처리 방식을 익힐 수 있습니다.
 
 <코드>
+```c
 #include <GL/freeglut.h>
 
 float angle = 0.0f;
