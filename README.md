@@ -33,6 +33,7 @@ int main(int argc, char** argv) {
     glutMainLoop();
     return 0;
 }
+```
 
 2번 회전하는 주전자
 
@@ -81,3 +82,4 @@ int main(int argc, char** argv) {
     glutMainLoop();
     return 0;
 }
+```
